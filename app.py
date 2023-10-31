@@ -43,5 +43,3 @@ def recommend():
 
     return render_template('recommend.html',data=data)
 
-if __name__ == '__main__':
-    app.run()
